@@ -29,10 +29,10 @@ from projects.llava_sam2.datasets.task_grouped_sampler import TaskGroupedSampler
 #######################################################################
 #                          PART 1  Settings                           #
 #######################################################################
-path='OpenGVLab/InternVL2_5-4B'
+path='OpenGVLab/InternVL2_5-8B'
 
-template = "phi3_chat"
-prompt_template = PROMPT_TEMPLATE.phi3_chat
+template = "internlm2_chat"
+prompt_template = PROMPT_TEMPLATE.internlm2_chat
 max_length = 8192
 
 batch_size = 2
